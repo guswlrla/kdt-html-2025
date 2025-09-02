@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: thistle;
+}
+
+header, main, footer{
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    width: 80%;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+section{
+    width: 30%;
+}
+
+/*
+h2{
+    color: blue;
+    background-color: darkgrey;
+}
+
+p{
+    color: deepskyblue;
+}
+
+.s1{ css에서 class를 나타내는 기호 = .
+    background-color: aquamarine;
+}
+
+.s2{
+    background-color: beige;
+}
+
+#a1{ css에서 id를 나타내는 기호 = #
+    background-color: darksalmon;
+}
+
+article > p { article 바로 밑에서 찾을 땐 부등호
+    color: crimson;
+}
+
+footer{
+    background-color: black;
+}
+
+footer li{ footer의 밑에 li가 있다면 색을 바꿈(부등호대신 공백으로 표시)
+    color: white;
+}
+*/
