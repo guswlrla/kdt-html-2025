@@ -1,0 +1,12 @@
+.inputDiv {
+    margin-bottom: 40px;
+}
+
+input[type=text] {
+    padding: 8px;
+}
+
+/* [] 안에 있는 속성을 가지고 있으면 적용 */
+input[readonly] { 
+    background-color: lightgrey;
+}
