@@ -80,3 +80,44 @@ for (let c of arr1) {
     if (c % 2 == 0) arr8.push(c);
 }
 console.log(arr8);
+
+// concat 함수
+const arr9 = arr7.concat(arr8);
+console.log('concat 함수');
+console.log(arr9);
+
+// join 함수
+let s = arr9.join('-');
+console.log('join 함수');
+console.log(s);
+s = arr9.join('');
+console.log(s);
+
+// slice 함수
+console.log('slice 함수');
+console.log(arr9.slice(1,3));
+
+// splice 함수
+console.log('splice 함수');
+arr9.splice(2, 0, 'A');
+console.log(arr9);
+
+// sort
+console.log("sort 함수");
+arr9.sort();
+console.log(arr9);
+
+// tailing 쉼표
+console.log('tailing 쉼표');
+let arr10 = [1,2,];
+console.log(arr10);
+
+// 전개연산자
+const arr11 = [...arr7, ...arr8];
+console.log("전개연산자");
+
+
+// 구조분해
+let [x, y] = arr10;
+console.log(x);
+console.log(`x = ${x}, y = ${y}`);

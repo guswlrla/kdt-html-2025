@@ -1,0 +1,21 @@
+#diceDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#diceDiv > div {
+    margin: 20px;
+}
+
+#diceDiv h2 {
+    text-align: center;
+}
+
+.spx  {
+   color : red;
+}
+
+.spo {
+    color: blue;
+}

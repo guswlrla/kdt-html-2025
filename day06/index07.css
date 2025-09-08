@@ -1,0 +1,54 @@
+#spDiv {
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+#spDiv > span {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+
+    border-radius: 50%;
+
+    font-weight: bold;
+}
+
+.sp0 {
+    background-color: firebrick;
+    color: white;
+}
+
+.sp1 {
+    background-color: darkgreen;
+    color: white;
+}
+
+.sp2 {
+    background-color: mediumblue;
+    color: white;
+}
+
+.sp3 {
+    background-color: goldenrod;
+    color: white;
+}
+
+.sp4 {
+    background-color: navy;
+    color: white;
+}
+
+.spplus {
+    color: black;
+    font-size: large;
+}
+
