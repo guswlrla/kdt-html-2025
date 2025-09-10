@@ -16,7 +16,7 @@ console.log(obj);
 // 키만 추출
 console.log(Object.keys(obj));
 for(let k of Object.keys(obj)) {
-    console,log(k, obj[k]);
+    console.log(k, obj[k]);
 }
 
 // 값만 추출

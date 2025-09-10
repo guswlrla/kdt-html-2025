@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>kdt html</title>
+    <link rel='stylesheet' href='../day04/fe05_main.css'>
+    <link rel='stylesheet' href='../day05/fe07_string.css'>
+    <link rel='stylesheet' href='./fe13_unitConv.css'>
+    <script src="./fe13_unitConv.js"></script>
+</head>
+<body>
+    <header>
+        <h1>단위 환산기</h1>
+    </header>
+    <main>
+        <form>
+            <div>
+                <select id="sel1">
+                    <option value="℃" selected>섭씨온도(℃)</option>
+                    <option value="℉">화씨온도(℉)</option>
+                </select>
+                <select id="sel2">
+                    <option value="℃">섭씨온도(℃)</option>
+                    <option value="℉" selected>화씨온도(℉)</option>
+                </select>
+            </div>
+            <div>
+                <div class="inDiv">
+                    <input type="number" id="txt1">
+                    <label for="txt1">℃</label>
+                </div>
+                <div class="inDiv">
+                    <input type="number" id="txt2" readonly>
+                    <label for="txt2">℉</label>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="../day04/fe05_main.html">홈으로</a></li>
+        </ul>
+    </footer>    
+</body>
+</html>

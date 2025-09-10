@@ -11,17 +11,17 @@ button, input[type=button], input[type=reset]{
     padding: 10px 20px;
     margin: 5px 15px;
 
-    background-color: black;
+    background-color: rgb(109, 148, 197);
     color: white;
 
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
 
     font-weight: bold;
 }
 
-input[type=button]:hover, input[type=reset]:hover {
-    background-color: grey;
+button:hover, input[type=button]:hover, input[type=reset]:hover {
+    background-color: rgb(132, 168, 212);
 }
 
 .btDiv {
@@ -43,4 +43,21 @@ input[type=button]:hover, input[type=reset]:hover {
 
     font-size: large;
     font-weight: bold;
+}
+
+.inputDiv {
+    margin-bottom: 40px;
+}
+
+input[type=text] {
+    padding: 8px;
+}
+
+/* [] 안에 있는 속성을 가지고 있으면 적용 */
+input[readonly] { 
+    background-color: rgb(232, 223, 202);
+}
+
+#msg span {
+  color: red;
 }
