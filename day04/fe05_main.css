@@ -6,12 +6,12 @@ body{
     /* justify-content: center; */
     align-items: center;
 
-    background-color: rgb(255, 255, 255);
+    background-color: #cbdce6;
 }
 
 header, main, footer{
     width: 800px;
-    background-color: rgb(245, 242, 237);
+    background-color: #fafaff;
 
     margin: 10px;
     padding: 20px;
@@ -21,7 +21,7 @@ header, main, footer{
 }
 
 header{
-    background-color: rgb(109, 148, 197);
+    background-color: #274c77;
     color: white;
     margin: 25px;
 }
@@ -60,7 +60,7 @@ a {
 
 footer a {
     display: inline-flex;
-    background-color: rgb(109, 148, 197);
+    background-color: #274c77;
     color: white;
 
     border-radius: 10px;
@@ -68,7 +68,7 @@ footer a {
 }
 
 footer a:hover{
-    background-color: rgb(132, 168, 212);
+    background-color: #49698d;
 }
 
 main li {
@@ -77,5 +77,5 @@ main li {
 }
 
 main li:hover{
-    background-color: rgb(248, 245, 240);
+    background-color: #f3f3fa;
 }

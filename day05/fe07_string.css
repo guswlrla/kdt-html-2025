@@ -11,7 +11,7 @@ button, input[type=button], input[type=reset]{
     padding: 10px 20px;
     margin: 5px 15px;
 
-    background-color: rgb(109, 148, 197);
+    background-color: #274c77;
     color: white;
 
     border-radius: 10px;
@@ -21,7 +21,7 @@ button, input[type=button], input[type=reset]{
 }
 
 button:hover, input[type=button]:hover, input[type=reset]:hover {
-    background-color: rgb(132, 168, 212);
+    background-color: #49698d;
 }
 
 .btDiv {

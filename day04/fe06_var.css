@@ -12,7 +12,7 @@ button{
     padding: 10px 20px;
     margin: 5px 15px;
 
-    background-color: black;
+    background-color: #274c77;
     color: white;
 
     border-radius: 5px;
@@ -22,7 +22,7 @@ button{
 }
 
 button:hover{
-    background-color: grey;
+    background-color: #49698d;
 }
 
 .btDiv {
