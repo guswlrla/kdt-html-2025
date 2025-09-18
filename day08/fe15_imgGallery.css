@@ -1,0 +1,24 @@
+#sec1 > img {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#sec2 {
+    margin-top: 20px;
+}
+
+#sec2 > img {
+    width: 80px;
+    height: 80px;
+
+    margin: 4px;
+    box-sizing: border-box;
+}
+
+#sec2 > img:hover {
+    border: 3px solid blue;
+}
+

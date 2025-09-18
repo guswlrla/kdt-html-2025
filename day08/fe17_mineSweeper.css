@@ -1,0 +1,15 @@
+.row {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.col {
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid lightgray;
+}
+
+#mainsec {
+    margin: 20px;
+}
