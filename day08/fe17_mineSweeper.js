@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
         col.addEventListener('click', () => {
             idx = parseInt(col.getAttribute('id').replace('col', '')); // id가 col3이라면 'col'을 제거하고 3만 정수로 변환해 idx에 넣음
             if (arrNum[idx] == 0) {
-                
+                cnt++;
+                col.innerHTML = '💖';
             }
         });
     }
