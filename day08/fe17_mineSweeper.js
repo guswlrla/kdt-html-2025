@@ -1,11 +1,12 @@
+// DOM의 요소 가져오기
 document.addEventListener('DOMContentLoaded', () => {
     const btn = document.querySelector('button');
-    const cols = document.querySelectorAll('.col');
+    const cols = document.querySelectorAll('.col'); // 노드리스트 형태로 갖고옴
 
     let arrNum = [0,0,0,0,0,0,0,0,1]; // 폭탄이 있는 곳을 1로 둠
-    let flag = false;
-    let idx;
-    let cnt = 0;
+    let flag = false; // arrNum을 섞기 위한 변수
+    let idx; // 현재 선택된 위치 변수
+    let cnt = 0; // 몇 번 눌려졌는지 카운트 변수
 
     // 초기화
     const init = () => {
