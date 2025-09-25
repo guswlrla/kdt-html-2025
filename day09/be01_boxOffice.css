@@ -1,0 +1,53 @@
+#boxMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#inDt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dt {
+    width: 50%;
+    padding: 5px;
+    margin: 10px;
+
+    font-weight: bold;
+}
+
+section {
+    width: 90%;
+}
+
+.boxli {
+    padding: 3px;
+    margin: 1px;
+}
+
+.boxrank {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 2px;
+
+    width: 25px;
+    height: 25px;
+
+    background-color: #274c77;
+    color: white;
+}
+
+.spr {
+    color: red;
+}
+
+.spb {
+    color: blue;
+}
