@@ -21,7 +21,7 @@ const getrankInten = (rankInten) => {
 
 // 박스 오피스 가져오기
 const getData = (gdt, box) => {
-    let apiKey = '1d3aeb0dbc329db4ed3a1ad87e4337a6';
+    let apiKey = '';
     let url = `http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=${apiKey}&targetDt=${gdt}`;
 
     // fetch

@@ -10,8 +10,9 @@ const getData = (txt1) => {
             let imgs = data.response.body.items.item;
             let tags = imgs.map(item => `<div class="imgs">
                                             <img src='${item.galWebImageUrl}'>
-                                            ${item.galTitle}
-                                            ${item.galPhotographyLocation}
+                                            <div class="location">
+                                            <p id="searchWord">${item.galTitle}<br>
+                                            ${item.galPhotographyLocation}</p></div>
                                             </div>`).join('');
             content.innerHTML = tags;
         })
