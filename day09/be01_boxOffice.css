@@ -20,8 +20,27 @@
     font-weight: bold;
 }
 
-section {
-    width: 90%;
+#content {
+    width: 100%;
+    display: flex;
+}
+
+#box {
+    width: 70%;
+}
+
+#poster {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+} 
+
+#poster > img {
+    width: 80%;
+    border: 1px solid lightgray;
 }
 
 .boxli {
